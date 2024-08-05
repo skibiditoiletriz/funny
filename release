@@ -28,17 +28,3 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-
-Tab:AddButton({
-	Name = "frag.pub",
-	Callback = function()
-      		loadstring(game:HttpGet("https://efial.wtf/Scripts/Trident%20(NEW).lua",true))()
-  	end    
-})
-
-OrionLib:MakeNotification({
-	Name = "frag.pub",
-	Content = "frag.pub has loaded successfully",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
